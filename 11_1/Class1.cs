@@ -18,9 +18,9 @@ namespace _11_1
         }
         public string Root()
         {
-            if (b == 0)
+            if (k == 0)
             {
-                return "Х равен 0";
+                return "Уравнения не имеет смысла, х может быть любым";
             }
             double r = -b/ k;
             return $"X равен {r:.000}";
